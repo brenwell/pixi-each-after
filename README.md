@@ -5,8 +5,8 @@ This library wraps `each-after` with `pixi-timeout` as its custom timer. For usa
 
 ### Requirements
 
-[pixi.js](https://github.com/pixijs/pixi.js) >4.0.0
-[pixi-timeout](https://github.com/brenwell/pixi-timeout)
+* [pixi.js](https://github.com/pixijs/pixi.js) >4.0.0
+* [pixi-timeout](https://github.com/brenwell/pixi-timeout)
 
 ## Intall
 
