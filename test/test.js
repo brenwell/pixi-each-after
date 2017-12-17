@@ -9,8 +9,6 @@ require('pixi.js')
 require('pixi-timeout')
 const eachAfter = require('../lib/pixi-each-after').default
 
-console.log(eachAfter)
-
 describe('Creation', () => {
 
     it('Should create a timer object', () => {

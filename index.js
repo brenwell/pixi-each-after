@@ -27,4 +27,5 @@ function init(pixi)
     return eachAfter
 }
 
-export default init(window.PIXI)
+// eslint-disable-next-line
+export default init(PIXI)
