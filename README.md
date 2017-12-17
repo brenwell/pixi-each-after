@@ -1,6 +1,6 @@
 # pixi-each-after
 
-pixi-each-after is a plugin for pixi.js. which iterates through an array with an interval between each call. Stop & kill iteration.
+Pixi-each-after is a plugin for pixi.js which iterates through an array with an interval between each call. With stop & kill iteration support.
 This library wraps `each-after` with `pixi-timeout` as its custom timer. For usage information please see [See each-after docs](https://github.com/brenwell/each-after)
 
 ### Requirements
