@@ -16,7 +16,7 @@ npm i pixi-each-after
 
 ## Usage
 
-Inclusing the library
+### Importing
 
 #### common.js
 
