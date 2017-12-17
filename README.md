@@ -1,12 +1,17 @@
-# pixi-pause
+# pixi-each-after
 
-pixi-pause is a pixi.js plugin which automatically pauses and resumes your `PIXI.Application` when the browser windows visibilty is changed.
+pixi-each-after is a plugin for pixi.js. which iterates through an array with an interval between each call. Stop & kill iteration.
+This library wraps `each-after` with `pixi-timeout` as its custom timer. For usage information please see [See each-after docs](https://github.com/brenwell/each-after)
 
+### Requirements
+
+[pixi.js](https://github.com/pixijs/pixi.js) >4.0.0
+[pixi-timeout](https://github.com/brenwell/pixi-timeout)
 
 ## Intall
 
 ```shell
-npm i pixi-pause
+npm i pixi-each-after
 ```
 
 ## Usage
@@ -18,21 +23,15 @@ Pixi pause will automatically begin listening to visibilty changes as soon it re
 ```js
 // common.js
 require('pixi.js')
-require('pixi-pause.js')
+require('pixi-timeout')
+const eachAfter = require('../lib/pixi-each-after').default
 
 // es6 modules
 import pixi from 'pixi.js'
-import pixiPause from 'pixi-pause.js'
+import pixiTimeout from 'pixi-timeout'
+import eachAfter = from 'pixi-each-after'
 ```
 
-### Disable
+### EachAfter
 
-**pixi-pause** will be enabled by default. But occassionaly it is import to disable the automatic pausing and resuming.
-
-```js
-// disable
-PIXI.autoPause = false
-
-// enable
-PIXI.autoPause = true
-```
+[See each-after docs](https://github.com/brenwell/each-after)
