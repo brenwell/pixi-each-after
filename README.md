@@ -16,20 +16,32 @@ npm i pixi-each-after
 
 ## Usage
 
-### Basic usage
+Inclusing the library
 
-Pixi pause will automatically begin listening to visibilty changes as soon it required
+#### common.js
 
 ```js
-// common.js
 require('pixi.js')
 require('pixi-timeout')
 const eachAfter = require('../lib/pixi-each-after').default
+```
 
-// es6 modules
+#### es6 modules
+
+```js
 import pixi from 'pixi.js'
 import pixiTimeout from 'pixi-timeout'
 import eachAfter = from 'pixi-each-after'
+```
+
+### Basic usage
+
+```js
+const timerInstance = eachAfter(
+    [2,4,9,16],     // an array to iterate over
+    1,              // seconds between each iteration
+    function(){}    // function to call on each iteration
+)
 ```
 
 ### EachAfter
