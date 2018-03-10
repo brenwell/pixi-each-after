@@ -1,6 +1,6 @@
 {
   "name": "pixi-each-after",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin for pixi.js. which iterates through an array with an interval between each call. Stop & kill iteration.",
   "main": "lib/pixi-each-after.js",
   "directories": {
